@@ -2,7 +2,7 @@ name: Generate trophy card
 
 on:
   schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
+    - cron: "0 */12 * * *" # Cron düzeltildi (Yalnızca 12 saatte bir, tam saatinde çalışır)
 
   workflow_dispatch:
 
@@ -18,6 +18,10 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      # EKSİK OLAN ADIM BURASIYDI: Git deposunu sanal makineye klonlar
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
       - name: generate trophy.svg
         uses: Erik-Donath/github-profile-trophy@feature/generate-svg
         with:
