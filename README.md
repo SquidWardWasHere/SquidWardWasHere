@@ -33,7 +33,7 @@
 ###
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=SquidWardWasHere&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
+  <img src="https://streak-stats.demolab.com?user=SquidWardWasHere&locale=en&mode=daily&theme=tokyonight&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  /> <br/>
   <img src="https://raw.githubusercontent.com/SquidWardWasHere/SquidWardWasHere/languages-output/languages.svg" height="150" alt="languages graph"  />
 </div>
 
